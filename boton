@@ -1,0 +1,28 @@
+void  POSRATON() {
+  print ("X: " + mouseX);
+  println (" Y: " + mouseY); 
+}
+  void CONTROL () {
+    if (mousePressed || mouseButton == RIGHTBUTTON)
+      rect(mouseX, mouseY, 50,50);
+  }
+void anim(){
+  VINIJR();
+  POSRATON();
+  CONTROL();
+}
+
+void main() {
+  animate(anim);
+}
+void VINIJR(){
+  background (0,0,0);  
+  //RECTANGULO
+  rect (135,130, 50,50);
+  if (mousePressed);
+  animate(BOTON1);
+}
+
+void BOTON1 () {
+  image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrnXoAPXponOP_1Pr0U7NEwsAVwRFc07Ijeg&s", 135,130, 80,80);
+}
