@@ -1,0 +1,13 @@
+int patata = second();
+
+void main (){
+ animate(ejecutar);}
+
+void ejecutar (){
+  int a = patata - second();
+  print (a);
+  if(a<=-2){
+   patata=second();
+   a = patata - second();
+   background(random(333),random(333),random(333));
+  }}
