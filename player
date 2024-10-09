@@ -1,0 +1,46 @@
+double x= 160;
+double y= 160;
+double velocidad= 10;
+
+void main(){
+  animate(ejecutar);
+}
+void ejecutar(){
+  player();
+  controles();
+  controles2();
+  controles3();
+  controles4();
+}
+void player(){
+  background(0,0,0);
+  ellipse(x,y,10,15);
+}
+void controles(){
+  if(keyPressed && key=="up") {
+  print("hoola");
+  y = y -velocidad;
+  if (y < 0){
+    y = 0;}
+}}
+void controles2(){
+  if(keyPressed && key=="left") {
+    print ("adios");
+    x = x -velocidad;
+    if (x < 0){
+    x = 0;}
+}}
+void controles3(){
+  if(keyPressed && key=="right") {
+    print ("jaja");
+    x = x +velocidad;
+    if (x > 320){
+    x = 320;}
+}}
+void controles4(){
+  if(keyPressed && key=="down") {
+    print ("popo");
+    y = y +velocidad;
+    if (y > 320){
+    y = 320;}
+}}
