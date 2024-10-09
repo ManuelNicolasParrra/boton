@@ -6,7 +6,7 @@ void main (){
 void ejecutar (){
   int a = patata - second();
   print (a);
-  if(a<=-2){
+  if(a<=-5){
    patata=second();
    a = patata - second();
    background(random(333),random(333),random(333));
