@@ -88,13 +88,13 @@ void PAG3() {
 
 void TEXTPAG3 (){
    fill(0,0,0);
-  text("ALANTE---> ?? ", 100,100);
   
-  text("DERECHA---> ?? ", 100,150);
   
-  text("IZQUIERDA---> ?? ", 100,200);
+  text("Click derecho --> láser ", 80,150);
   
-  text("ATRAS---> ?? ",100,250);
+  text("Click izquierdo --> cancelar láser ", 30,200);
+  
+  
 }
 
 void CONTROLES3 () {
